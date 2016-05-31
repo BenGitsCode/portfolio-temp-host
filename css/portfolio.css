@@ -1,0 +1,149 @@
+body, html {
+	background-image: url('../img/bosnight.jpg');
+  margin:0; padding:0;
+
+  /* Thhis is important for cool scrolliness */
+  background-attachment:fixed;
+}
+
+.bg-2 {
+	background-image: url('http://www.orangesmile.com/common/img_cities_original/boston-20061717-13.jpg');
+	margin: 0; padding: 0;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.bg-sep {
+  height:300px;
+  width:100%;
+}
+
+.about-text {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+.about-cont {
+	background: rgba(202, 209, 216, 0.90);
+}
+
+.text-muted {
+  color: #777777;
+}
+
+.skills-cont {
+	background: rgba(202, 209, 216, 0.90);
+}
+
+.skills h2 {
+	margin:0 0 80px;
+	font-family:'Titillium Web';
+	font-size:24px;
+	font-weight:400;
+}
+
+.web-icons {
+ text-align: center;
+ font-size: 7rem;
+}
+
+/* Nifty video background experiment
+======================================*/
+
+video {
+	width: 100%;
+ height:auto;
+	position: absolute;
+}
+
+.intro-text {
+	position: relative;
+}
+
+
+/*media query for still image on mobile*/
+@media screen and (max-device-width: 800px) {
+  .header-vid {
+       background: url(https://i.gyazo.com/d4aae42cd806e57314a2abd3bb533b7b.png) #000 no-repeat center center fixed;
+  }
+  video {
+      display: none;
+  }
+}
+
+.pause-btn {
+  display: block;
+  width: 30%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+.pause-btn button:hover {
+   background: rgba(0,0,0,0.5);
+}
+/* Image fixes for portfolio
+======================================*/
+
+.scale-me {
+		height: 260px;
+}
+
+.img-circle {
+  border-radius: 50%;
+		height: 360px;
+		width: 290px;
+}
+
+
+
+
+/* Back To Top Button
+======================================*/
+
+.back-top{
+    position:fixed;
+    right:30px;
+    bottom:50px;
+    z-index:9999;
+}
+
+.back-top a{
+    opacity:0.5;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.back-top .btn-primary{
+    background: #EE3B24;
+    border-color: #EE3B24;
+    padding: 0px;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+}
+
+.back-top a:hover{
+    background: #EE3B24;
+    opacity: 1;
+}
+
+/*FOOTER*/
+
+.social-buttons {
+	text-align: center;
+	font-size: 6rem;
+}
+
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
